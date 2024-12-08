@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import Homepage from "./components/HomePage";
 import Auth from "./components/Auth";
-import UserPage from "./components/UserPage";
+import UserPage from "./Components/UserPage";
 
 function App() {
   return (

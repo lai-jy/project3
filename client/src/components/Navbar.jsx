@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
 
 const Navbar = () => {
   return (
@@ -10,10 +9,10 @@ const Navbar = () => {
           Bluesky
         </Link>
         <div>
-          <Link to="/auth" className="navbar-link">
+          <Link to="/auth?mode=login" className="navbar-link">
             Log In
           </Link>
-          <Link to="/auth" className="navbar-link">
+          <Link to="/auth?mode=signup" className="navbar-link">
             Sign Up
           </Link>
         </div>

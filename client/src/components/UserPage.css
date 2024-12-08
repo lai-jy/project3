@@ -1,4 +1,4 @@
-/* 用户页面容器 */
+
 .userpage-container {
     max-width: 600px;
     margin: 2rem auto;
@@ -8,7 +8,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* 用户名标题 */
   .userpage-title {
     font-size: 2rem;
     font-weight: bold;
@@ -16,14 +15,12 @@
     color: #333;
   }
   
-  /* 描述信息样式 */
   .userpage-description {
     margin-bottom: 2rem;
     font-size: 1rem;
     color: #555;
   }
   
-  /* 按钮样式 */
   .edit-button {
     padding: 0.5rem 1rem;
     background-color: #28a745;
@@ -37,7 +34,6 @@
     background-color: #218838;
   }
   
-  /* 帖子样式 */
   .user-post {
     background-color: white;
     padding: 1rem;

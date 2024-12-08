@@ -1,4 +1,4 @@
-/* 容器样式 */
+
 .homepage-container {
     max-width: 800px;
     margin: 2rem auto;
@@ -8,7 +8,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* 标题样式 */
   .homepage-title {
     font-size: 2rem;
     font-weight: bold;
@@ -17,7 +16,6 @@
     color: #333;
   }
   
-  /* 每个帖子样式 */
   .post-card {
     background-color: #fff;
     padding: 1rem;
@@ -27,7 +25,6 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }
   
-  /* 用户名链接样式 */
   .post-username {
     color: #007bff;
     font-weight: bold;
@@ -38,7 +35,6 @@
     text-decoration: underline;
   }
   
-  /* 时间戳样式 */
   .post-timestamp {
     font-size: 0.875rem;
     color: #666;
