@@ -1,0 +1,45 @@
+/* 容器样式 */
+.homepage-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 标题样式 */
+  .homepage-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* 每个帖子样式 */
+  .post-card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 用户名链接样式 */
+  .post-username {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .post-username:hover {
+    text-decoration: underline;
+  }
+  
+  /* 时间戳样式 */
+  .post-timestamp {
+    font-size: 0.875rem;
+    color: #666;
+  }

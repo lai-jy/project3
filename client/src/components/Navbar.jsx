@@ -1,23 +1,23 @@
+import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import "./Navbar.css";
 
 const Navbar = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      {isLoggedIn ? (
-        <>
-          <Link to="/profile">Profile</Link>
-          <button onClick={() => setIsLoggedIn(false)}>Logout</button>
-        </>
-      ) : (
-        <>
-          <Link to="/auth">Log In</Link>
-          <Link to="/auth">Sign Up</Link>
-        </>
-      )}
+    <nav className="navbar">
+      <div className="navbar-container">
+        <Link to="/" className="navbar-link">
+          Bluesky
+        </Link>
+        <div>
+          <Link to="/auth" className="navbar-link">
+            Log In
+          </Link>
+          <Link to="/auth" className="navbar-link">
+            Sign Up
+          </Link>
+        </div>
+      </div>
     </nav>
   );
 };

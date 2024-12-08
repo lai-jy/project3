@@ -1,17 +1,18 @@
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Homepage from "./components/HomePage";
 import Auth from "./components/Auth";
 import UserPage from "./components/UserPage";
 
 function App() {
   return (
-    <div>
+    <div className="bg-gray-100 min-h-screen">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/auth" element={<Auth />} />
-        <Route path="/user/:id" element={<UserPage />} />
+        <Route path="/user/:username" element={<UserPage />} />
       </Routes>
     </div>
   );
